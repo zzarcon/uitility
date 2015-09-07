@@ -1,0 +1,21 @@
+{
+  "name": "uitility",
+  "version": "0.1.0",
+  "description": "Just a set of UI utilities that i usually use for build apps",
+  "main": "main.scss",
+  "scripts": {
+    "amend": "git add . && git commit --amend --reuse-message=HEAD",
+    "push": "git push --tags && git push",
+    "release": "bower version patch -f && npm version patch --force --no-git-tag-version && npm run amend && npm run push && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzarcon/uitility.git"
+  },
+  "author": "@zzarcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzarcon/uitility/issues"
+  },
+  "homepage": "https://github.com/zzarcon/uitility"
+}

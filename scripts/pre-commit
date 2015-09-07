@@ -1,0 +1,3 @@
+#!/bin/bash
+set -e
+sass main.scss bundle.css

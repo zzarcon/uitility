@@ -1,0 +1,28 @@
+{
+  "name": "uitility",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zzarcon/uitility",
+  "authors": [
+    "@zzarcon"
+  ],
+  "description": "Just a set of UI utilities that i usually use for build apps",
+  "main": "main.scss",
+  "keywords": [
+    "scss",
+    "ui",
+    "mixins",
+    "functions",
+    "sass",
+    "css",
+    "css3"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "sass-flex-mixin": "1.0.1",
+    "bourbon": "4.2.4"
+  }
+}

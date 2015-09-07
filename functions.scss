@@ -1,0 +1,11 @@
+@function complementary-side($side){
+  @if $side == "left" {
+    @return "top";
+  } @else if $side == "right" {
+    @return "top";
+  } @else if $side == "top" {
+    @return "left";
+  } @else if $side == "bottom" {
+    @return "left";
+  }
+}
